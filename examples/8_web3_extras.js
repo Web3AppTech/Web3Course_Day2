@@ -7,10 +7,10 @@ web3.eth.getGasPrice().then((result) => {
 })
 
 // Use sha256 Hashing function
-console.log(web3.utils.sha3('Dapp University'))
+console.log(web3.utils.sha3('Metademy World'))
 
 // Use keccak256 Hashing function (alias)
-console.log(web3.utils.keccak256('Dapp University'))
+console.log(web3.utils.keccak256('Metademy World'))
 
 // Get a Random Hex
 console.log(web3.utils.randomHex(32))
